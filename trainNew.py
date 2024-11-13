@@ -101,7 +101,7 @@ dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True, collate_fn
 class Encoder(nn.Module):
     def __init__(self, embed_dim):
         super(Encoder, self).__init__()
-        resnet = models.resnet50(pretrained=True)
+        resnet = models.resnet18(pretrained=True)
         modules = list(resnet.children())[:-2]
         self.resnet = nn.Sequential(*modules)
         # Добавляем сверточный слой для приведения размерности к embed_dim
