@@ -89,7 +89,7 @@ if len(dataset) == 0:
 
 # Параметры обучения
 batch_size = 1  # Устанавливаем размер батча 1
-num_epochs = 40
+num_epochs = 300
 embed_dim = 512
 num_heads = 8
 num_layers = 6
