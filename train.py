@@ -15,7 +15,7 @@ IMAGE_DIR = 'images'
 CAPTION_DIR = 'captions'
 
 # Устройство (CPU или GPU)
-os.system("cls")
+# os.system("cls")
 #device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 device = "cuda"
 print("Using device:", device)
