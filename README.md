@@ -2,7 +2,7 @@ idk what is that that just works lol.
 # Instalision 
 First of all install python => 3.9, then instal req.txt
 ```python
-pip install -r req.txt
+pip install -r requirements.txt
 ```
 And then you are ready to go!
 
