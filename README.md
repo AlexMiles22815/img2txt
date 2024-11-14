@@ -1,4 +1,5 @@
 idk what is that that just works lol.
+Also this ai is cpu only. I tried to add cuda stuff, but it didnt worked as it should for some reason lol
 # Instalision 
 First of all install python => 3.9, then instal req.txt
 ```python
