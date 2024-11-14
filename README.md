@@ -1,4 +1,10 @@
 idk what is that that just works lol.
+# Instalision 
+First of all install python => 3.9, then instal req.txt
+```
+pip install -r req.txt
+```
+And then you are ready to go!
 
 # Traning
 ### Dataset
